@@ -1,0 +1,72 @@
+.upload_container {
+    width: 100%;
+    max-width: 640px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.upload_container svg {
+    display: none;
+}
+
+.upload_container label {
+    width: 100%;
+    border: 1px dashed #999CA0;
+    z-index: 9999;
+    height: 350px;
+    max-width: 560px;
+    min-width: fit-content;
+
+}
+
+.excel_bg {
+    background-image: url("../../assets/excelIcon.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.file_container {
+    position: relative;
+}
+
+.file_container .select_file {
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    z-index: 99999;
+    transform: translate(-50%, -50%);
+}
+
+.remove {
+    color: #D33030;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.jWkLDY {
+    display: none !important;
+}
+
+.browse {
+    position: absolute;
+    top: 58%;
+    width: 100%;
+    left: 50%;
+    font-weight: 400;
+    color: #999CA0;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+}
+
+.browse a {
+    color:
+        #605BFF;
+}

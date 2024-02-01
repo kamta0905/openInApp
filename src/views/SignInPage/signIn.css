@@ -1,0 +1,218 @@
+.sign_in_container {
+    display: flex;
+    background-color: #F8FAFF;
+}
+
+.sign_in_container .left_container {
+    background-image: url("../../assets/signInHomeBg.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign_in_container .left_container::after {
+    content: '';
+    position: absolute;
+    background-image: url("../../assets/baseVectorLogo.svg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    top: 54px;
+    left: 60px;
+    background-position: center;
+}
+
+.sign_in_container .right_container {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_in_container .right_container .sign_in_title {
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 420px;
+    text-align: left;
+    width: 100%;
+}
+
+.sign_in_container .right_container .sign_in_dec {
+    text-align: left;
+    max-width: 420px;
+    width: 100%;
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sign_in_container .right_container .sign_options {
+    display: flex;
+    flex-direction: row;
+    max-width: 420px;
+    gap: 20px;
+    width: 100%;
+}
+
+.sign_in_container .right_container .sign_options .card a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #858585;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    justify-content: center;
+    line-height: normal;
+}
+
+.sign_in_container .left_container .logo_title {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: normal;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 40px;
+    max-width: min(100% - 120px);
+}
+
+.sign_in_container .left_container .social_media_container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    max-width: min(100% - 120px);
+    margin-bottom: 40px;
+
+}
+
+.sign_in_container .left_container .social_media_container a {
+    display: block;
+}
+
+.sign_in_container .right_container .input_label {
+    margin-bottom: 10px;
+    display: block;
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sign_in_container .right_container .forgot_link a, .sign_in_container .right_container .register_link a {
+    color: #346BD4;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: normal;
+}
+
+.sign_in_container .right_container .register_link {
+    color: #858585;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: normal;
+}
+
+.sign_in_container .right_container .forgot_link {
+    margin-bottom: 21px;
+}
+
+@media (max-width:1400px) {
+    .sign_in_container .left_container .logo_title {
+        color: #FFF;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-top: 40px;
+        max-width: min(100% - 120px);
+
+    }
+
+    .sign_in_container .right_container .sign_in_title {
+        color: #000;
+        font-size: 30px;
+        text-align: left;
+        max-width: 420px;
+        width: 100%;
+    }
+}
+
+@media (max-width:991px) {
+    .sign_in_container {
+        flex-direction: column;
+    }
+
+    .sign_in_container .left_container {
+        background-color: #605BFF;
+        height: 100%;
+        max-height: 200px;
+        min-height: 100px;
+    }
+
+    .sign_in_container .left_container .logo_title {
+        font-size: 20px;
+        justify-content: left;
+        text-transform: capitalize;
+        margin-left: 85px;
+    }
+
+    .sign_in_container .left_container::after {
+        content: '';
+        position: absolute;
+        background-image: url("../../assets/mediaLogo1.svg");
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-color: #605BFF;
+        border-radius: 50%;
+        top: 37px;
+        left: 40px;
+        background-position: center;
+    }
+
+    .sign_in_container .right_container {
+        padding: 50px 16px;
+    }
+
+    .sign_in_container .left_container .social_media_container {
+        display: none;
+    }
+}

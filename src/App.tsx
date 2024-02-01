@@ -1,25 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import PrimaryBtn from "./components/atoms/PrimaryBtn";
+import { Loader } from "./components/Skeletons/Loader";
+import { InputField } from "./components/atoms/InputField";
+import { SignInPage } from "./views/SignInPage";
+import { SideBar } from "./views/SideBar";
+import { Layout } from "./views/Layout";
+import { AsideBar } from "./views/AsideBar";
+import UpLoadedTable from "./views/UploadedTable";
+import { Route, Routes } from "react-router-dom";
+import routes from "./routes";
+import { Dashboard } from "./views/Dashboard";
+import { Settings } from "./views/Settings";
+import { Notification } from "./views/Notification";
+import { Schedule } from "./views/Schedule";
+import { Invoice } from "./views/Invoice";
+import { Calender } from "./views/Calender";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path={routes.sign_in} element={<SignInPage />} />
+      <Route path={routes.dashboard} element={<Layout sideBar={<SideBar />} asideBar={<Dashboard />} />} />
+      <Route path={routes.upload} element={<Layout sideBar={<SideBar />} asideBar={<AsideBar />} />} />
+      <Route path={routes.settings} element={<Layout sideBar={<SideBar />} asideBar={<Settings />} />} />
+      <Route path={routes.notification} element={<Layout sideBar={<SideBar />} asideBar={<Notification />} />} />
+      <Route path={routes.schedule} element={<Layout sideBar={<SideBar />} asideBar={<Schedule />} />} />
+      <Route path={routes.invoice} element={<Layout sideBar={<SideBar />} asideBar={<Invoice />} />} />
+      <Route path={routes.calender} element={<Layout sideBar={<SideBar />} asideBar={<Calender />} />} />
+    </Routes>
   );
 }
 

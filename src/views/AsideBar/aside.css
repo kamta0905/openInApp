@@ -1,0 +1,27 @@
+.aside_container {
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    width: min(100% - 218px);
+    z-index: 999999;
+    background: #FAFAFB;
+    position: fixed;
+}
+
+.aside {
+    width: min(100% - 218px);
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.aside .title_aside {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.aside_container .profile_section {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}

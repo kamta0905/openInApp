@@ -20,7 +20,8 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+
   "include": [
-    "src"
-  ]
+    "src","node_modules/react-drag-drop-files/types"
+, "tsconfig.json"  ]
 }

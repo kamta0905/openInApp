@@ -1,0 +1,22 @@
+.card {
+    background-color: #FFFFFF;
+    padding: 30px;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 20px;
+    margin-top: 27px;
+    margin-bottom: 21px;
+}
+
+.card.cust_card {
+    padding: 12px 6px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.card.upload_card {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+}

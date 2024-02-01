@@ -1,0 +1,147 @@
+.sidebar_container {
+    background-color: #ffffff;
+    width: min(100%, 218px);
+    height: 100vh;
+    overflow: auto;
+}
+
+.sidebar_container .image_with_title {
+    padding: 30px 40px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.sidebar_container .image_with_title h1 {}
+
+.sidebar_container .nav_bar {}
+
+.image_cont {
+    padding: 12px 17px;
+}
+
+.image_cont img {
+    color: red;
+}
+
+.image_cont img svg {
+    background-color: #605BFF;
+}
+
+.image_cont.active {
+    background-image: url(../../assets/backgroundImg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sidebar_container .nav_bar a {
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #9A9AA9;
+}
+
+.sidebar_container .nav_bar a.active {
+    color: #605BFF;
+}
+
+.menu_logo {
+    display: none;
+}
+
+.title_aside {
+    display: block;
+}
+
+.close {
+    display: none;
+}
+
+.responsive_sidebar.inActive {
+    display: none;
+}
+
+.responsive_sidebar.active {
+    display: none;
+}
+
+@media (max-width:991px) {
+    .sidebar_container {
+        display: none;
+    }
+
+    .aside {
+        min-width: 100%;
+    }
+
+    .aside_container {
+        min-width: 100%;
+        padding: 25px 20px !important;
+        background-color: #ffffff !important;
+        align-items: center;
+    }
+
+    .menu_logo {
+        display: flex;
+        gap: 15px;
+    }
+
+    .menu_logo div {
+        height: 100%;
+        margin: auto;
+    }
+
+    .menu_logo h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .title_aside {
+        display: none;
+    }
+
+    .responsive_sidebar {
+        display: block !important;
+        height: 100%;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        width: 0;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+
+    }
+
+    .responsive_sidebar.active {
+        display: block !important;
+        height: 100%;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        width: 300px;
+        border-radius: 0px 20px 20px 0px;
+        left: 0;
+        border-right: 1px solid #605bff3d;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+
+    .close {
+        display: none;
+    }
+
+    .close.active {
+        display: block;
+        position: absolute;
+        top: 52px;
+        right: 8px;
+        left: auto;
+    }
+}
