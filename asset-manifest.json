@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/openInApp/static/css/main.8f75ce7b.css",
+    "main.js": "/openInApp/static/js/main.b5e57e43.js",
+    "static/js/787.932be9a0.chunk.js": "/openInApp/static/js/787.932be9a0.chunk.js",
+    "static/media/userAvatar.svg": "/openInApp/static/media/userAvatar.fc046037461c7a60c2c127a9c2d463df.svg",
+    "static/media/discord.svg": "/openInApp/static/media/discord.2c010e9c6810a15782b020dd7619d172.svg",
+    "static/media/excelIcon.svg": "/openInApp/static/media/excelIcon.d65d9c689d3653af6292.svg",
+    "static/media/google.svg": "/openInApp/static/media/google.47e1fd451cbd785e30e463129fa8cc55.svg",
+    "static/media/gitHub.svg": "/openInApp/static/media/gitHub.4b8e6f3123eeb603cd8d3898cf2ef810.svg",
+    "index.html": "/openInApp/index.html",
+    "static/media/notification.svg": "/openInApp/static/media/notification.55aeb8584a4735461fe98236c6d0cd49.svg",
+    "static/media/twitter.svg": "/openInApp/static/media/twitter.5eab8432708aa9ea16d9684a3e466a8a.svg",
+    "static/media/apple.svg": "/openInApp/static/media/apple.c90c5dd7d1a7e02f078c5708659b0b32.svg",
+    "static/media/afterlogin.svg": "/openInApp/static/media/afterlogin.9b0c345be1ba4a2ea8183cf4d6e089ae.svg",
+    "static/media/mediaLogo1.svg": "/openInApp/static/media/mediaLogo1.b5686a1d4ff9f9a2d45e.svg",
+    "static/media/mediaLogo2.svg": "/openInApp/static/media/mediaLogo2.818ed61dc4c808226c3e87ad8b8b6367.svg",
+    "static/media/linkeDin.svg": "/openInApp/static/media/linkeDin.14c68f300a46f24098f8776522e4a292.svg",
+    "static/media/uploadicon.svg": "/openInApp/static/media/uploadicon.3e9564dfb2fcaafc624720ef6ea1db3b.svg",
+    "static/media/backgroundImg.svg": "/openInApp/static/media/backgroundImg.561bf5926865d72b273f.svg",
+    "static/media/closeIcon.svg": "/openInApp/static/media/closeIcon.a3c800481566475ad3d260e125ce7996.svg",
+    "static/media/baseVectorLogo.svg": "/openInApp/static/media/baseVectorLogo.b451bcc6f110f801b432.svg",
+    "static/media/burgermenu.svg": "/openInApp/static/media/burgermenu.935fc69bae396f44240c05c057fda142.svg",
+    "static/media/signInHomeBg.svg": "/openInApp/static/media/signInHomeBg.2ed3289d9931ad1b8911.svg",
+    "main.8f75ce7b.css.map": "/openInApp/static/css/main.8f75ce7b.css.map",
+    "main.b5e57e43.js.map": "/openInApp/static/js/main.b5e57e43.js.map",
+    "787.932be9a0.chunk.js.map": "/openInApp/static/js/787.932be9a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f75ce7b.css",
+    "static/js/main.b5e57e43.js"
+  ]
+}
