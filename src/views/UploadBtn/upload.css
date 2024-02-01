@@ -21,6 +21,10 @@
 
 }
 
+.upload_container label div {
+    display: none;
+}
+
 .excel_bg {
     background-image: url("../../assets/excelIcon.svg");
     background-position: center;
