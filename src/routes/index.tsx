@@ -1,11 +1,11 @@
 const routes = {
-  dashboard: "/dashboard",
-  sign_in: "/*",
-  upload: "/upload",
-  settings: "/settings",
-  notification: "/notification",
-  invoice: "/invoice",
-  schedule: "/schedule",
-  calender: "/calender",
+  dashboard: "/openInApp/dashboard",
+  sign_in: "/openInApp/*",
+  upload: "/openInApp/upload",
+  settings: "/openInApp/settings",
+  notification: "/openInApp/notification",
+  invoice: "/openInApp/invoice",
+  schedule: "/openInApp/schedule",
+  calender: "/openInApp/calender",
 };
 export default routes;
