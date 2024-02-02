@@ -6,7 +6,7 @@ body {
     background-color: #FAFAFB;
 }
 
-.comman_all {
+.common_all {
     margin: 80px auto;
     padding: 60px 20px;
     text-align: center;
@@ -14,13 +14,37 @@ body {
     font-weight: 600;
 }
 
+.mobile_view_social {
+    display: none;
+}
+
+.sign_in_container .right_container .register_link {
+    display: block;
+}
+
 @media (max-width:991px) {
-    .comman_all {
+    .common_all {
         margin: 60px auto;
         padding: 60px 20px;
         text-align: center;
         font-size: 24px;
         font-weight: 600;
+    }
+
+    .mobile_view_social {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+    }
+
+    .sign_in_container .right_container .register_link {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
     }
 }
 

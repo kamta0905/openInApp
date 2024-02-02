@@ -6,6 +6,10 @@ import { InputField } from "../../atoms/InputField";
 import PrimaryBtn from "../../atoms/PrimaryBtn";
 import { Link } from "react-router-dom";
 import routes from "../../../routes";
+import mobileLinkedin from "../../../assets/mobileLinkedin.svg";
+import mobileGithub from "../../../assets/mobileGithub.svg";
+import mobileTwitter from "../../../assets/mobileTwitter.svg";
+import mobileDiscord from "../../../assets/mobileDiscord.svg";
 export const SignInRight = () => {
   return (
     <div className="right_container">
@@ -43,6 +47,20 @@ export const SignInRight = () => {
       <p className="register_link">
         Don’t have an account? <a href="">Register here</a>
       </p>
+      <div className="mobile_view_social">
+        <a href="">
+          <img src={mobileGithub} alt="github" />
+        </a>
+        <a href="">
+          <img src={mobileTwitter} alt="twitter" />
+        </a>
+        <a href="">
+          <img src={mobileLinkedin} alt="linkedin" />
+        </a>
+        <a href="">
+          <img src={mobileDiscord} alt="discord" />
+        </a>
+      </div>
     </div>
   );
 };
