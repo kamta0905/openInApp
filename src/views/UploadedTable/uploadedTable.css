@@ -52,6 +52,11 @@
     color: #ffffff;
 }
 
+.table_container table tr td a {
+    color: #605BFF;
+    text-decoration: underline;
+}
+
 .table_container .dropdown_list {
     width: 100%;
     max-width: 170px;
