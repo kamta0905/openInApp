@@ -1,5 +1,5 @@
 import React from "react";
 
 export const Notification = () => {
-  return <div>Notification</div>;
+  return <div className="comman_all">Notification</div>;
 };

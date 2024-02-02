@@ -5,3 +5,11 @@
 body {
     background-color: #FAFAFB;
 }
+
+.comman_all {
+    margin: 60px auto;
+    padding: 60px 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}

@@ -1,5 +1,5 @@
 import React from "react";
 
 export const Calender = () => {
-  return <div>Calender</div>;
+  return <div className="comman_all">Calender</div>;
 };

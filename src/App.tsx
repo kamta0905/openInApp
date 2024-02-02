@@ -12,18 +12,40 @@ import { Notification } from "./views/Notification";
 import { Schedule } from "./views/Schedule";
 import { Invoice } from "./views/Invoice";
 import { Calender } from "./views/Calender";
+import { FileUpload } from "./views/FileUpload";
 
 function App() {
   return (
     <Routes>
       <Route path={routes.sign_in} element={<SignInPage />} />
-      <Route path={routes.dashboard} element={<Layout sideBar={<SideBar />} asideBar={<Dashboard />} />} />
-      <Route path={routes.upload} element={<Layout sideBar={<SideBar />} asideBar={<AsideBar />} />} />
-      <Route path={routes.settings} element={<Layout sideBar={<SideBar />} asideBar={<Settings />} />} />
-      <Route path={routes.notification} element={<Layout sideBar={<SideBar />} asideBar={<Notification />} />} />
-      <Route path={routes.schedule} element={<Layout sideBar={<SideBar />} asideBar={<Schedule />} />} />
-      <Route path={routes.invoice} element={<Layout sideBar={<SideBar />} asideBar={<Invoice />} />} />
-      <Route path={routes.calender} element={<Layout sideBar={<SideBar />} asideBar={<Calender />} />} />
+      <Route
+        path={routes.dashboard}
+        element={<Layout sideBar={<SideBar />} asideBar={<AsideBar child={<Dashboard />} />} />}
+      />
+      <Route
+        path={routes.upload}
+        element={<Layout sideBar={<SideBar />} asideBar={<AsideBar child={<FileUpload />} />} />}
+      />
+      <Route
+        path={routes.settings}
+        element={<Layout sideBar={<SideBar />} asideBar={<AsideBar child={<Settings />} />} />}
+      />
+      <Route
+        path={routes.notification}
+        element={<Layout sideBar={<SideBar />} asideBar={<AsideBar child={<Notification />} />} />}
+      />
+      <Route
+        path={routes.schedule}
+        element={<Layout sideBar={<SideBar />} asideBar={<AsideBar child={<Schedule />} />} />}
+      />
+      <Route
+        path={routes.invoice}
+        element={<Layout sideBar={<SideBar />} asideBar={<AsideBar child={<Invoice />} />} />}
+      />
+      <Route
+        path={routes.calender}
+        element={<Layout sideBar={<SideBar />} asideBar={<AsideBar child={<Calender />} />} />}
+      />
     </Routes>
   );
 }

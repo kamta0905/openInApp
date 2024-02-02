@@ -7,7 +7,7 @@ import { UploadBtn } from "../UploadBtn";
 import logo from "../../assets/mediaLogo2.svg";
 import menu from "../../assets/burgermenu.svg";
 import { SideBar } from "../SideBar";
-export const AsideBar = () => {
+export const AsideBar = (props: any) => {
   const [isOpen, setIsOpen] = useState(false);
   const [active, setActive] = useState("inActive");
 
@@ -84,7 +84,7 @@ export const AsideBar = () => {
           </div>
         </div>
       </div>
-      <UploadBtn />
+      {props.child}
     </div>
   );
 };
