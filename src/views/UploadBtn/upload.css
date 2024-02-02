@@ -70,6 +70,20 @@
     transform: translate(-50%, -50%);
 }
 
+.upload_container h1 {
+    display: none;
+}
+
+@media (max-width:991px) {
+    .upload_container h1 {
+        text-align: left;
+        font-size: 16;
+        display: block;
+        font-weight: 700;
+    }
+}
+
+
 .browse a {
     color:
         #605BFF;

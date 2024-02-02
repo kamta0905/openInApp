@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./aside.css";
 import notification from "../../assets/notification.svg";
 import userAvatar from "../../assets/userAvatar.svg";
-import UpLoadedTable from "../UploadedTable";
-import { UploadBtn } from "../UploadBtn";
 import logo from "../../assets/mediaLogo2.svg";
 import menu from "../../assets/burgermenu.svg";
 import { SideBar } from "../SideBar";
@@ -42,7 +40,7 @@ export const AsideBar = (props: any) => {
           </div>
           <h1>Base</h1>
         </div>
-        <SideBar active={active} setActive={setActive} />
+        {active && setActive && <SideBar active={active} setActive={setActive} />}
         <div className="profile_section">
           <img src={notification} alt="notify" />
           <div

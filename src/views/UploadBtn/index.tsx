@@ -35,6 +35,7 @@ export const UploadBtn = () => {
   return (
     <>
       <div className="upload_container">
+        <h1>Upload CSV</h1>
         <Cards className="card upload_card">
           <FileUpload
             handleChange={handleChange}

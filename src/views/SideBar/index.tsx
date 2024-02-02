@@ -15,7 +15,7 @@ import { Settings } from "../../assets/dynamic/Settings";
 export const SideBar = (props: any) => {
   const location = useLocation();
   const path = location.pathname;
-
+  console.log(props);
   return (
     <div className={`${"sidebar_container responsive_sidebar"} ${props.active}`}>
       <div className="image_with_title">
