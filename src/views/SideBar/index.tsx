@@ -28,6 +28,7 @@ export const SideBar = (props: any) => {
       <nav className="flex flex-col nav_bar">
         <Link
           to={routes.dashboard}
+          onClick={() => props.setActive("inActive")}
           className="font-bold  text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"
         >
           <div className={`${"image_cont"} ${path === routes.dashboard ? "active" : ""}`}>
@@ -37,6 +38,7 @@ export const SideBar = (props: any) => {
         </Link>
         <Link
           to={routes.upload}
+          onClick={() => props.setActive("inActive")}
           className="font-bold  text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"
         >
           <div className={`${"image_cont"} ${path === routes.upload ? "active" : ""}`}>
@@ -46,6 +48,7 @@ export const SideBar = (props: any) => {
         </Link>
         <Link
           to={routes.invoice}
+          onClick={() => props.setActive("inActive")}
           className="font-bold  text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"
         >
           <div className={`${"image_cont"} ${path === routes.invoice ? "active" : ""}`}>
@@ -55,6 +58,7 @@ export const SideBar = (props: any) => {
         </Link>
         <Link
           to={routes.schedule}
+          onClick={() => props.setActive("inActive")}
           className="font-bold  text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"
         >
           <div className={`${"image_cont"} ${path === routes.schedule ? "active" : ""}`}>
@@ -64,6 +68,7 @@ export const SideBar = (props: any) => {
         </Link>
         <Link
           to={routes.calender}
+          onClick={() => props.setActive("inActive")}
           className="font-bold  text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"
         >
           <div className={`${"image_cont"} ${path === routes.calender ? "active" : ""}`}>
@@ -73,6 +78,7 @@ export const SideBar = (props: any) => {
         </Link>
         <Link
           to={routes.notification}
+          onClick={() => props.setActive("inActive")}
           className="font-bold  text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"
         >
           <div className={`${"image_cont"} ${path === routes.notification ? "active" : ""}`}>
@@ -82,6 +88,7 @@ export const SideBar = (props: any) => {
         </Link>
         <Link
           to={routes.settings}
+          onClick={() => props.setActive("inActive")}
           className="font-bold  text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"
         >
           <div className={`${"image_cont"} ${path === routes.settings ? "active" : ""}`}>
