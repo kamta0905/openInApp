@@ -7,6 +7,7 @@ import { UploadBtn } from "../UploadBtn";
 import logo from "../../assets/mediaLogo2.svg";
 import menu from "../../assets/burgermenu.svg";
 import { SideBar } from "../SideBar";
+import routes from "../../routes";
 export const AsideBar = (props: any) => {
   const [isOpen, setIsOpen] = useState(false);
   const [active, setActive] = useState("inActive");
@@ -75,7 +76,12 @@ export const AsideBar = (props: any) => {
                   <a href="" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" id="menu-item-2">
                     License
                   </a>
-                  <a href="/" className="text-gray-700 block px-4 py-2 text-sm" role="menuitem" id="menu-item-3">
+                  <a
+                    href={routes.sign_in}
+                    className="text-gray-700 block px-4 py-2 text-sm"
+                    role="menuitem"
+                    id="menu-item-3"
+                  >
                     Sign Out
                   </a>
                 </div>
