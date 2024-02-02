@@ -14,7 +14,7 @@ interface FileUploaderProps {
   types: string[];
 }
 export const UploadBtn = () => {
-  const fileTypes = ["CSV", "JPG", "PNG", "DOC", "XLSX", "JPEG"];
+  const fileTypes = ["CSV", "JPG", "PNG", "DOC", "XLSX", "JPEG", "PDF"];
   const [file, setFile] = useState<FileList | any>(null);
   const [time, setTime] = useState(false);
   const [btn, setBtnDis] = useState(false);

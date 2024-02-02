@@ -41,7 +41,9 @@ const UpLoadedTable = () => {
               <th className="border-slate-300">Sl No.</th>
               <th className="border-slate-300">Links</th>
               <th className="border-slate-300">Prefix</th>
-              <th className="border-slate-300">Add Tags</th>
+              <th className="border-slate-300" style={{ width: "100%", minWidth: "200px" }}>
+                Add Tags
+              </th>
               <th className="border-slate-300">Selected Tags</th>
             </tr>
           </thead>
