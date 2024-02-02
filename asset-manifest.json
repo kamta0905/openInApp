@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/openInApp/static/css/main.f0d70042.css",
-    "main.js": "/openInApp/static/js/main.037a7a44.js",
+    "main.css": "/openInApp/static/css/main.c7c6b51c.css",
+    "main.js": "/openInApp/static/js/main.09049120.js",
     "static/js/787.932be9a0.chunk.js": "/openInApp/static/js/787.932be9a0.chunk.js",
     "static/media/userAvatar.svg": "/openInApp/static/media/userAvatar.fc046037461c7a60c2c127a9c2d463df.svg",
     "static/media/discord.svg": "/openInApp/static/media/discord.2c010e9c6810a15782b020dd7619d172.svg",
     "static/media/excelIcon.svg": "/openInApp/static/media/excelIcon.d65d9c689d3653af6292.svg",
     "static/media/google.svg": "/openInApp/static/media/google.47e1fd451cbd785e30e463129fa8cc55.svg",
+    "static/media/mobileDiscord.svg": "/openInApp/static/media/mobileDiscord.1c15bc6d066ddd9c202e55fcbc230d2d.svg",
     "index.html": "/openInApp/index.html",
     "static/media/gitHub.svg": "/openInApp/static/media/gitHub.4b8e6f3123eeb603cd8d3898cf2ef810.svg",
+    "static/media/mobileGithub.svg": "/openInApp/static/media/mobileGithub.c9338e7d71587d65c02a82b3e2edff1d.svg",
     "static/media/notification.svg": "/openInApp/static/media/notification.55aeb8584a4735461fe98236c6d0cd49.svg",
     "static/media/twitter.svg": "/openInApp/static/media/twitter.5eab8432708aa9ea16d9684a3e466a8a.svg",
+    "static/media/mobileTwitter.svg": "/openInApp/static/media/mobileTwitter.dc12f94a523d253e7ec534f755b0b7a6.svg",
     "static/media/apple.svg": "/openInApp/static/media/apple.c90c5dd7d1a7e02f078c5708659b0b32.svg",
+    "static/media/mobileLinkedin.svg": "/openInApp/static/media/mobileLinkedin.1f351b6802f58e75c7c8bc1464dd1c0e.svg",
     "static/media/afterlogin.svg": "/openInApp/static/media/afterlogin.9b0c345be1ba4a2ea8183cf4d6e089ae.svg",
     "static/media/mediaLogo1.svg": "/openInApp/static/media/mediaLogo1.b5686a1d4ff9f9a2d45e.svg",
     "static/media/mediaLogo2.svg": "/openInApp/static/media/mediaLogo2.818ed61dc4c808226c3e87ad8b8b6367.svg",
@@ -24,12 +28,12 @@
     "static/media/dropdownImg.svg": "/openInApp/static/media/dropdownImg.bbdc3d141609eb1a92e846a4842ae937.svg",
     "static/media/burgermenu.svg": "/openInApp/static/media/burgermenu.935fc69bae396f44240c05c057fda142.svg",
     "static/media/signInHomeBg.svg": "/openInApp/static/media/signInHomeBg.2ed3289d9931ad1b8911.svg",
-    "main.f0d70042.css.map": "/openInApp/static/css/main.f0d70042.css.map",
-    "main.037a7a44.js.map": "/openInApp/static/js/main.037a7a44.js.map",
+    "main.c7c6b51c.css.map": "/openInApp/static/css/main.c7c6b51c.css.map",
+    "main.09049120.js.map": "/openInApp/static/js/main.09049120.js.map",
     "787.932be9a0.chunk.js.map": "/openInApp/static/js/787.932be9a0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0d70042.css",
-    "static/js/main.037a7a44.js"
+    "static/css/main.c7c6b51c.css",
+    "static/js/main.09049120.js"
   ]
 }
