@@ -36,3 +36,36 @@
     font-size: 14px;
     font-weight: 600;
 }
+
+.table_container .table_list {
+    display: flex;
+    width: 320px;
+    gap: 12px;
+}
+
+.table_container .table_list li {
+    background-color: #605BFF;
+    border-radius: 4px;
+    display: flex;
+    gap: 4px;
+    padding: 3px 8px;
+    color: #ffffff;
+}
+
+.table_container .dropdown_list {
+    width: 100%;
+    max-width: 170px;
+    border-radius: 11px;
+    background-color: #ffffff;
+    top: 30px;
+    z-index: 9;
+    height: 200px;
+    overflow: auto;
+}
+
+.bg-white-500 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    border-radius: 10px;
+}

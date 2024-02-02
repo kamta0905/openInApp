@@ -1,14 +1,9 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import PrimaryBtn from "./components/atoms/PrimaryBtn";
-import { Loader } from "./components/Skeletons/Loader";
-import { InputField } from "./components/atoms/InputField";
 import { SignInPage } from "./views/SignInPage";
 import { SideBar } from "./views/SideBar";
 import { Layout } from "./views/Layout";
 import { AsideBar } from "./views/AsideBar";
-import UpLoadedTable from "./views/UploadedTable";
 import { Route, Routes } from "react-router-dom";
 import routes from "./routes";
 import { Dashboard } from "./views/Dashboard";
