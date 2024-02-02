@@ -95,7 +95,7 @@ const UpLoadedTable = () => {
               </td>
             </tr>
             <tr>
-              <td>1</td>
+              <td>2</td>
               <td>
                 <a href="http://google.com" target="_blank" rel="noopener noreferrer">
                   www.google.com
@@ -141,7 +141,7 @@ const UpLoadedTable = () => {
               </td>
             </tr>
             <tr>
-              <td>1</td>
+              <td>3</td>
               <td>
                 <a href="http://google.com" target="_blank" rel="noopener noreferrer">
                   www.google.com
@@ -152,7 +152,7 @@ const UpLoadedTable = () => {
               <td></td>
             </tr>
             <tr>
-              <td>1</td>
+              <td>4</td>
               <td>
                 <a href="http://google.com" target="_blank" rel="noopener noreferrer">
                   www.google.com
@@ -163,7 +163,7 @@ const UpLoadedTable = () => {
               <td></td>
             </tr>
             <tr>
-              <td>1</td>
+              <td>5</td>
               <td>
                 <a href="http://google.com" target="_blank" rel="noopener noreferrer">
                   www.google.com
